@@ -1,0 +1,122 @@
+
+
+.bagbnb.booking {
+  background-color: #24cccd;
+}
+
+.bagbnb.booking p *,
+.bagbnb.booking p {
+  font-family: Roboto, Open Sans, Segoe UI, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+    color: #0d2b42e8;
+
+}
+
+
+
+
+
+.bagbnb.booking p.block,.bagbnb.booking div.block {
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+main > .container-lg .bagbnb .dashed {
+    margin-bottom: 6px;
+    padding-bottom: 10px;
+    border-bottom: 4px dashed #24cccd;
+}
+
+.bagbnb.booking p span {
+    font-weight: bold;
+}
+
+.bagbnb.booking h1 {
+    text-align: center;
+}
+
+.bagbnb.booking  .panel-heading {
+    padding-bottom:20px;
+    text-align: center;
+}
+
+.bagbnb.booking  .panel-heading p{
+    padding-top:10px;
+    text-align: center;
+}
+
+.bagbnb.booking h2{
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+.bagbnb.booking h3{
+    font-size: 19px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.bagbnb.booking .panel-body{
+  margin: 0 15px 20px;
+  padding: 20px;
+  border-style: none;
+  background-color: #ffffff;
+  box-shadow: 0 6px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08),
+  inset 0 1px 0 #ffffff;
+  border-radius: 4px;
+}
+
+.bagbnb.booking .panel-footer{
+    margin: 0 15px 20px;
+    padding: 20px;
+
+}
+.bagbnb.booking .panel-footer p {
+
+}
+
+.bagbnb.booking .product {
+  margin: 0 15px 20px;
+  padding: 0;
+}
+
+
+
+.bagbnb.booking .product h2 {
+  font-size: larger;
+  padding-bottom:10px;
+}
+
+.bagbnb.booking .product p {
+  color: #145987;
+}
+
+#template-content > * {
+    color: #145987;
+}
+
+.bagbnb.booking .row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-left: 15px;
+  flex-wrap: nowrap;
+}
+
+.bagbnb.booking .row + .row {
+  border-top: 1px solid #24cccd;
+  margin-right: 15px;
+}
+
+.working-time {
+    font-size:13px;
+}
+
+.cnt-logo {
+    text-align: center;
+}
+.cnt-logo .img-fluid {
+    max-width: 170px;
+}

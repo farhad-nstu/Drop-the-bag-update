@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,900');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+
+.bagbnb.payment, main *, .bagbnb.booking p *, .bagbnb.booking p, .std * {
+  background-color: transparent;
+  font-family: 'Lato', sans-serif;
+  color: #0D2B42;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #0D2B42;
+}
+
+main > .container-lg .bagbnb {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  /*border: 1px solid #dce0e0;*/
+  /*background: #f3f2f2;*/
+  background: #fff;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.bagbnb.booking .panel-body {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+.bagbnb.payment .product {
+  margin: 0;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.bagbnb.payment .payment-title {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.bagbnb.payment .payment-subtitle {
+  color: #565a5c;
+  font-size: 17px;
+  padding-top: 4px;
+  font-weight: 100;
+  font-family: Open Sans, sans-serif;
+
+}
+
+.bagbnb.payment .product p {
+  color: #0D2B42;
+  font-size: 17px;
+  padding-top: 4px;
+  font-weight: 100;
+  font-family: Open Sans, sans-serif;
+}
+
+.bagbnb.payment input:-webkit-autofill {
+  color: #565a5c;
+  -webkit-text-fill-color: #565a5c;
+}
+
+.bagbnb.payment button.pay, .bagbnb.payment button.pay:active {
+  display: block;
+  margin: 24px 0;
+  box-shadow: none;
+  cursor: pointer;
+  background: #60cdce;
+  color: #fff;
+  width: 100%;
+  /*margin-top: 20px;*/
+  text-transform: uppercase;
+  height: 55px;
+  border-radius: 2px;
+  font: 700 29px Open Sans, sans-serif;
+}
+
+body .bagbnb.payment button.coupon {
+  background: #60cdce;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 2px;
+  font: 700 20px Open Sans, sans-serif;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+.paypal-button.paypal-button-color-blue {
+  background: #60cdce;
+}
+
+.bagbnb.payment .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.bagbnb.payment [class^='col-'] {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.bagbnb.payment .terms-conditions {
+  color: #565a5c;
+  font-size: 16px !important;
+  font-weight: 100 !important;
+  line-height: 20px;
+}
+
+.bagbnb.payment .terms-conditions .modal-terms{
+  font-size: 16px!important;
+  font-weight: 600!important;
+}
+
+.bagbnb.payment .coupon-code-collapse a {
+  position: relative;
+  color: #67c3c8 !important;
+  font: 16px 'Open Sans', sans-serif;
+  font-weight: 700;
+  display: block;
+}
+
+.modal-terms, .modal-terms:hover, .modal-terms:active, .modal-terms:focus, .btn-primary:active:hover {
+  color: #67c3c8;
+  outline: none;
+  background-color: transparent;
+  border: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+  color: #67c3c8;
+  text-decoration: underline;
+  background-color: transparent;
+  border-color: transparent;
+  outline: none;
+}
+
+#template-coupon-content strong {
+  font-size: 17px;
+  font-weight: 900;
+}
+
+hr {
+  border-color: #67c3c8;
+  margin: 25px 0 !important;
+  display: block;
+}
+
+.bagbnb.payment label {
+  min-width: 80px;
+  color: #0d2b42;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Lato', sans-serif;
+}
+
+.bagbnb.payment fieldset {
+  margin: 0 0 20px;
+  padding: 0;
+}
+
+#payment-tabs {
+  margin: 0;
+}
+
+#payment-tabs > li > a {
+  border: 1px solid #dce0e0 !important;
+  /*border-bottom: none;*/
+  margin-bottom: -1px;
+}
+
+/*#payment-tabs > li.active > a, #payment-tabs > li.active > a:focus, #payment-tabs > li.active > a:hover {*/
+/*  border: 1px solid #60cdce !important;*/
+/*  background: #60cdce;*/
+/*  color: #fff !important;*/
+/*}*/
+
+.tab-content {
+  height: 100%;
+}
+
+.tab-content fieldset {
+  background: transparent!important;
+  padding: 0 !important;
+}
+
+.bagbnb.payment .row + .row {
+  margin: 0;
+}
+
+main > .container-lg .bagbnb .dashed {
+  margin-bottom: 6px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #24cccd;
+}
+
+.bagbnb.booking h1 {
+  font-weight: 700;
+}
+
+body .panel-footer {
+  border: 1px solid #ddd;
+  margin: 0 -25px;
+}
+
+.modal .btn {
+  background: #dce0e0;
+  border-color: #dce0e0;
+}
+
+.std p, .std li {
+  line-height: 16px;
+  color: #565a5c;
+}
+
+.bagbnb.booking p a {
+  color: #565a5c !important;
+}
+.icon svg {
+  stroke: #565a5c;
+}
+main > .container-lg .bagbnb .completed .title,
+main > .container-lg .bagbnb .completed .message
+{
+  color: #565a5c;
+}
+
+main > .container-lg .bagbnb .caption .caption-cards-block {
+  display: flex;
+  align-items: center;
+}
+
+main > .container-lg .bagbnb .caption .caption-cards-block img {
+  margin-right: 8px;
+}
+
+/*sucsess*/
+.img-man {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.bagbnb.booking {
+  position: relative;
+}
+
+.bagbnb.booking:before {
+  content: '';
+  height: 15px;
+  left: 55px;
+  right: 55px;
+  display: block;
+  top: 0;
+  position: absolute;
+  background: #60cdce;
+}
+
+.bagbnb.booking .panel-heading {
+  padding-right: 150px;
+  position: relative;
+  width: 100%;
+  margin-right: 15px;
+}
+
+.bagbnb.booking .panel-heading h1 {
+  letter-spacing: -.5px;
+  font: 24px 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-align: left;
+  color: #444444;
+  line-height: 26px;
+  margin-top: 20px;
+}
+
+.bagbnb.booking .panel-heading *, .bagbnb.booking .panel-heading,
+.bagbnb.booking .panel-heading p {
+  text-align: left;
+}
+
+.bagbnb.booking .panel-footer {
+  padding: 0;
+  margin: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.bagbnb.booking .panel-footer-title {
+  background: #52bbc0;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  overflow: hidden;
+  font: 20px 'Open Sans', sans-serif;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.bagbnb.booking .panel-footer-body {
+  border: 1px solid #dcddde;
+  border-top: none;
+  background: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.bagbnb.booking .panel-footer-img {
+  flex-shrink: 0;
+  margin: 15px;
+}
+
+.bagbnb.booking .panel-footer-body * {
+  color: #666666;
+  font: 16px 'Open Sans', sans-serif;
+  font-weight: 400;
+  text-align: left;
+  line-height: 20px;
+}
+.text-right-sm {
+  text-align: right;
+}
+@media (max-width: 768px) {
+
+  main > .container-lg .bagbnb {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .working-time {
+    padding: 0;
+  }
+
+  .text-right-sm{
+    text-align: center;
+  }
+
+  .row.times {
+    margin: 0;
+  }
+
+  .working-time .days {
+    width: 40%;
+    padding: 0 5px;
+  }
+
+  .working-time .times {
+    width: 60%;
+    padding: 0 5px;
+  }
+
+  .bagbnb.payment *, .bagbnb.payment .product p,
+  .bagbnb.booking p *, .bagbnb.booking p {
+    font-size: 16px;
+  }
+
+  #template-coupon-content strong, .bagbnb.payment label {
+    font-size: 16px;
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .bagbnb.payment .terms-conditions, .modal-terms {
+    font: 400 11px Open Sans, sans-serif !important;
+  }
+
+  .bagbnb.booking h3 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .bagbnb.payment button.pay, .bagbnb.payment button.pay:active {
+    font: 700 24px Open Sans, sans-serif !important;
+  }
+
+  main > .container-lg .bagbnb .caption {
+    justify-content: space-between;
+    text-align: center;
+    background: #fff;
+  }
+  body .payment label.checkbox-style {
+    font-size: 11px!important;
+  }
+  .bagbnb.payment .terms-conditions .modal-terms{
+    font-size: 11px!important;
+  }
+  .body .payment label.checkbox-style {
+    font-weight: 400!important;
+  }
+  .bagbnb.payment .product {
+    margin-top: 22px;
+    margin-bottom: 10px;
+  }
+  .bagbnb.payment.pay-by-card .product {
+    margin-top: 22px;
+    margin-bottom: 15px;
+  }
+  .bagbnb.payment fieldset {
+    margin: 0 0 15px;
+  }
+}
+
+body .payment label.checkbox-style {
+  display: block;
+  position: relative;
+  left: 0;
+  padding: 0 0 0 28px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  color: #7B909D;
+  max-width: 450px;
+  font-size: 14px;
+  line-height: 14px !important;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 100%;
+  white-space: normal;
+  font-weight: 300!important;
+}
+
+
+.bagbnb.payment  .checkbox-style input {
+  position: absolute;
+  opacity: 0;
+  left: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.bagbnb.payment .checkmark {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  background-color: #fff;
+  border: 1px solid #24cccd;
+  border-radius: 2px;
+}
+
+.bagbnb.payment .checkbox-style:hover input ~ .checkmark {
+  background-color: #fff;
+}
+
+.bagbnb.payment .checkbox-style input:checked ~ .checkmark {
+  background-color: #24cccd;
+}
+
+.bagbnb.payment .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.bagbnb.payment .checkbox-style input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.bagbnb.payment .checkbox-style .checkmark:after {
+  left: 5px;
+  top: 2px;
+  width: 6px;
+  height: 10px;
+  border: solid #fff;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}

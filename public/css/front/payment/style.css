@@ -1,0 +1,66 @@
+body{
+  overflow-x: hidden;
+  background-color: #f6f9fc;
+}
+
+.img-section{
+  padding-top: 1%;
+}
+
+.img-section img{
+  display: block;
+  width: 295px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 59px;
+
+}
+
+.header{
+  background-color: white;
+}
+
+.info{
+  padding-top: 5%;
+  max-width: 650px;
+  background-color: white;
+  padding: 40px;
+}
+.drop-pick-info{
+  float: none;
+  margin-top: -10px;
+}
+
+.drop-pick-info h3{
+  float: left;
+  font-size: 17px;
+  font-weight: 900;
+}
+
+.drop-pick-info p{
+  text-align: right;
+  padding-top: 3px;
+}
+
+.info-first-head{
+  padding-bottom: 20px;
+}
+
+
+.total-block{
+  padding-top: 20px;
+  border-top: 1px solid rgb(50, 204, 204);
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 8px 12px;
+    color: #0d2b42;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: Open Sans, sans-serif;
+    border: 1px solid #60cdce;
+    border-radius: 2px;
+    background-color: #fff;
+    -webkit-animation: 1ms void-animation-out;
+}

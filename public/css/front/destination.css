@@ -1,0 +1,271 @@
+body {
+color: #0d2b42;
+font:400 15px/22px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
+margin:0;
+padding:0;
+-webkit-font-smoothing:antialiased;
+}
+
+
+h1 {
+font-size:22px;
+margin:0;
+font-weight:400;
+}
+a {
+color:#404040;
+text-decoration:none;
+}
+a:hover { color:#101010; }
+img {
+width: 100%;
+height: auto;
+}
+::-webkit-scrollbar {
+	width:3px;
+	height:3px;
+	border-left:0;
+	background:rgba(0,0,0,0.1);
+}
+::-webkit-scrollbar-track {
+	background:none;
+}
+::-webkit-scrollbar-thumb {
+	background:#00853e;
+	border-radius:0;
+}
+
+.city-result .container{
+	max-width: 96%;
+}
+#map-cnt{
+	height:100%;
+	padding-bottom:20px;	
+}
+
+#map-cnt .map-content{
+	position:sticky !important;
+	height:100vh;
+	top: 0;
+
+}
+#map-cnt .map-content {
+	display: flex;
+	flex-direction: column;
+}
+#map-cnt .experience {
+    flex-shrink: 0;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid rgba(0,0,0,.05);
+}
+
+.pro-side {
+	justify-content: space-between;
+	padding: 2rem 0;
+}
+.angels-count-header {
+    font-size: 18px;
+    line-height: 22px;
+    font-family: Lato,sans-serif;
+    font-weight: 900;
+    margin-bottom: 6px;
+}
+.warning-online-booking {
+    color:#000;
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+.icon-warning {
+    border: 1px solid #000;
+    border-radius: 100%;
+    width: 15px;
+    height: 15px;
+    line-height: 14px;
+    display: inline-block;
+    text-align:center;
+    font-size:12px;
+}
+
+.angels-info-text {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Lato,sans-serif;
+}
+
+.angels-info-price, .angels-info-time {
+    display: flex;
+    align-items: center;
+}
+.angels-info {
+    color: 
+    #32cccc;
+}
+.angels-info-circle {
+    font-weight: 600;
+    font-size: 41px;
+    margin-left: 3rem;
+    display: block;
+    width: auto;
+    height: 70px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 70px;
+    margin-right: 2px;
+}
+.angels-info-circle sup {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14px;
+    display: inline-block;
+    transform: translateY(-19px) translateX(-10px);
+}
+
+
+.angels-info-text {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Lato,sans-serif;
+}
+
+.pad2 {
+   padding:20px;
+}
+.quiet {
+   color:#888;
+}
+.map {
+	flex: 1 1 auto;
+	z-index: 3;
+}
+.heading {
+	background:#fff;
+	border-bottom:1px solid #eee;
+	height:60px;
+	line-height:60px;
+	padding:0 10px;
+}
+
+.listings .item {
+	display: flex;
+	flex-direction: column;
+	font-weight: 300;
+	font-size: 1.2rem;
+	background:#fff;
+	border: 2px solid transparent;
+	box-shadow: 0 0 10px
+	rgba(0,0,0,.1);
+	border-radius: 2px;
+	margin-bottom: 2rem;
+	padding: 1rem;
+	transition: all .2s ease-in-out;
+	cursor: pointer;	
+}
+.product-content {
+    display: flex;
+}	
+.working-time-list{
+	display:flex;
+}
+
+.product-descr {
+	flex: 1 1 auto;
+	font-size: 1.4rem;
+}
+.working-time-list .days {
+    min-width: 7rem;
+    text-transform: capitalize;
+}
+.working-time-list .times span {
+	color:#32cccc;
+	display: inline-block;
+	margin: 0 3px;
+
+}
+
+.listings  .item.active, .item:hover {
+    border: 2px solid    #32cccc;
+}
+
+
+.listings .item .title  {
+	text-transform: uppercase; 
+	display: block;
+	font-weight: 700;
+	color:#0D2B42;
+	font-size: 18px;
+	line-height: 1.9;
+}
+.title h4{
+   font-size: 18px;
+}
+.listings .item .title small { font-weight:400; }
+
+
+
+
+
+
+.clearfix { display:block; }
+
+.clearfix:after {
+content:'.';
+display:block;
+height:0;
+clear:both;
+visibility:hidden;
+}
+
+/* Marker tweaks */
+.leaflet-popup-close-button {
+display:none;
+}
+.leaflet-popup-content {
+font:400 15px/22px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
+padding:0;
+width:200px;
+}
+
+.leaflet-popup-content-wrapper {
+padding:0;
+
+}
+
+.leaflet-popup-content h3 {
+background:#91c949;
+color:#fff;
+margin:0;
+display:block;
+padding:10px;
+border-radius:3px 3px 0 0;
+font-weight:700;
+margin-top:-15px;
+}
+.leaflet-popup-content div {
+padding:10px;
+}
+.leaflet-container .leaflet-marker-icon { cursor:pointer; }
+
+.product-img {
+width: 10rem;
+height: auto;
+margin-right: 1rem;
+margin-bottom: 0;
+flex-shrink: 0;
+position: relative;
+overflow: hidden;
+
+}
+
+
+.details{
+display: flex;
+flex: 1 1 auto;
+}
+
+
+

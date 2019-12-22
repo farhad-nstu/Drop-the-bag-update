@@ -1,0 +1,21 @@
+
+#items-grid li a {
+    font-size: small !important;
+}
+
+@media (max-width: 1024px) {
+    .glyphicon-menu-hamburger.hamb-mob-icon {
+        padding: 17px 25px 0 28px !important;
+        font-size: 23px !important;
+    }
+}
+
+.header {
+    background: white;
+}
+
+.port-item {
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 25px;
+}
